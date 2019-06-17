@@ -7,6 +7,10 @@ const basketSchema = new Schema({
         ref: 'Item',
         required: true
     },
+    item_code:{
+        type: String,
+        required:true
+    },
     merchant_id:{
         type: Schema.Types.ObjectId,
         ref: 'User',
@@ -15,6 +19,18 @@ const basketSchema = new Schema({
     customer_id:{
         type: Schema.Types.ObjectId,
         ref: 'User',
+        required: true
+    },
+    customer_name:{
+        type: String,
+        required: true
+    },
+    merchant_name:{
+        type: String,
+        required:true
+    },
+    price: {
+        type: Number,
         required: true
     },
     status:{

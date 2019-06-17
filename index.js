@@ -14,5 +14,5 @@ app.use(function(err, req, res, next){
 });
 
 app.listen('5000', function(){
-    console.log('KUMIS KUCING');
+    console.log('REST API running in localhost port 5000');
 });

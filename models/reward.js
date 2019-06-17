@@ -1,24 +1,20 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const userSchema = new Schema({
+const rewardSchema = new Schema({
     name : {
         type : String,
         required : true
     },
-    role: {
+    status: {
         type: Number,
-        required: true
-    },
-    password : {
-        type: String,
         required: true
     },
     point : {
         type: Number,
-        required: false
+        required: true
     }
 });
 
-const User = mongoose.model('user',userSchema);
-module.exports = User;
+const Reward = mongoose.model('reward',rewardSchema);
+module.exports = Reward;

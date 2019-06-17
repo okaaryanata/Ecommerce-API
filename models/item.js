@@ -15,9 +15,17 @@ const itemSchema = new Schema({
         ref: 'User',
         required: true
     },
+    merchant_name: {
+        type: String,
+        required: true
+    },
     color: {
         type: String,
         required: false
+    },
+    price: {
+        type: Number,
+        required: true
     }
 });
 
