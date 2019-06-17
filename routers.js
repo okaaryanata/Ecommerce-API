@@ -7,6 +7,9 @@ const Reward = require('./models/reward');
 var jwt = require('jsonwebtoken');
 
 // Universal routers
+router.get('/test', function(req,res){
+    res.send("REST API RUNNING");
+})
 router.get('/list-items', function(req,res){
     Item.find({}).then(function(result){
         res.send({
@@ -58,6 +61,16 @@ router.post('/signup', function(req,res,next){
     })
 });
 
+router.get('/get-item/:id', function(req,res){
+    Item.findOne({_id:req.params.id}).then(function(result){
+        res.send({
+            method: "GET Item by id",
+            result: result
+        });
+    });
+});
+
+// Admin routers
 router.post('/add-reward', function(req,res,next){
     Reward.findOne({name: req.body.name}).exec(function(err,reward){
         if (reward){
@@ -101,15 +114,6 @@ router.delete('/delete-user/:id', function(req,res,next){
             })
             .catch(next);
         }
-    });
-});
-
-router.get('/get-item/:id', function(req,res){
-    Item.findOne({_id:req.params.id}).then(function(result){
-        res.send({
-            method: "GET Item by id",
-            result: result
-        });
     });
 });
 
