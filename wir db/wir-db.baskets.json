@@ -1,0 +1,48 @@
+{ 
+    "_id" : ObjectId("5d075d4414e31f795dd443a0"), 
+    "item_id" : ObjectId("5d075ca914e31f795dd4439c"), 
+    "merchant_id" : ObjectId("5d075c6614e31f795dd44398"), 
+    "customer_id" : ObjectId("5d075c7914e31f795dd4439a"), 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko oka", 
+    "item_code" : "Baju-002", 
+    "customer_name" : "oka", 
+    "status" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075d5214e31f795dd443a1"), 
+    "item_id" : ObjectId("5d075cfd14e31f795dd4439e"), 
+    "merchant_id" : ObjectId("5d075c6e14e31f795dd44399"), 
+    "customer_id" : ObjectId("5d075c7914e31f795dd4439a"), 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko eka", 
+    "item_code" : "Baju-0091", 
+    "customer_name" : "oka", 
+    "status" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075e5965c62d7ce0e9740a"), 
+    "item_id" : ObjectId("5d075cfd14e31f795dd4439e"), 
+    "merchant_id" : ObjectId("5d075c6e14e31f795dd44399"), 
+    "customer_id" : ObjectId("5d075c7914e31f795dd4439a"), 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko eka", 
+    "item_code" : "Baju-0091", 
+    "customer_name" : "oka", 
+    "status" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075ec4eb61ab7d6d1b8e89"), 
+    "item_id" : ObjectId("5d075cfd14e31f795dd4439e"), 
+    "merchant_id" : ObjectId("5d075c6e14e31f795dd44399"), 
+    "customer_id" : ObjectId("5d075c7914e31f795dd4439a"), 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko eka", 
+    "item_code" : "Baju-0091", 
+    "customer_name" : "oka", 
+    "status" : NumberInt(0), 
+    "__v" : NumberInt(0)
+}

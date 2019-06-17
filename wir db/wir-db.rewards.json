@@ -1,0 +1,14 @@
+{ 
+    "_id" : ObjectId("5d0758fc6ea02d743da78a4d"), 
+    "name" : "Reward A", 
+    "point" : NumberInt(40), 
+    "status" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0759086ea02d743da78a4e"), 
+    "name" : "Reward B", 
+    "point" : NumberInt(20), 
+    "status" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}

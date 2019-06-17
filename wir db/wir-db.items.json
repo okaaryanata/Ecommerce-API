@@ -1,0 +1,40 @@
+{ 
+    "_id" : ObjectId("5d075ca914e31f795dd4439c"), 
+    "name" : "Baju Anjing", 
+    "item_code" : "Baju-002", 
+    "merchant_id" : ObjectId("5d075c6614e31f795dd44398"), 
+    "color" : "Blue", 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko oka", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075cc514e31f795dd4439d"), 
+    "name" : "Baju Kucing", 
+    "item_code" : "Baju-001", 
+    "merchant_id" : ObjectId("5d075c6614e31f795dd44398"), 
+    "color" : "Black", 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko oka", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075cfd14e31f795dd4439e"), 
+    "name" : "Baju Katak", 
+    "item_code" : "Baju-0091", 
+    "merchant_id" : ObjectId("5d075c6e14e31f795dd44399"), 
+    "color" : "Black", 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko eka", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075d0914e31f795dd4439f"), 
+    "name" : "Baju Monyet", 
+    "item_code" : "Baju-0092", 
+    "merchant_id" : ObjectId("5d075c6e14e31f795dd44399"), 
+    "color" : "Black", 
+    "price" : NumberInt(11000), 
+    "merchant_name" : "toko eka", 
+    "__v" : NumberInt(0)
+}

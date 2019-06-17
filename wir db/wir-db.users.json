@@ -1,0 +1,29 @@
+{ 
+    "_id" : ObjectId("5d075c6614e31f795dd44398"), 
+    "name" : "toko oka", 
+    "password" : "kumiskucing", 
+    "role" : NumberInt(2), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075c6e14e31f795dd44399"), 
+    "name" : "toko eka", 
+    "password" : "kumiskucing", 
+    "role" : NumberInt(2), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d075c7914e31f795dd4439a"), 
+    "name" : "oka", 
+    "password" : "kumiskucing", 
+    "role" : NumberInt(1), 
+    "__v" : NumberInt(0), 
+    "point" : NumberInt(20)
+}
+{ 
+    "_id" : ObjectId("5d075c8014e31f795dd4439b"), 
+    "name" : "aryanata", 
+    "password" : "kumiskucing", 
+    "role" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}
